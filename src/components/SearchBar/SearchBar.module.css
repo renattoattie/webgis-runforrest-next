@@ -1,0 +1,28 @@
+.searchContainer {
+    position: absolute;
+    right: 1rem;
+    top: 4rem;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    width: 16rem;
+    pointer-events: auto;
+  }
+  
+  .searchIcon {
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.5rem;
+  }
+  
+  .searchInput {
+    background-color: transparent;
+    border: none;
+    font-size: 0.875rem;
+  }
+  
+  .searchInput:focus-visible {
+    outline: none;
+    box-shadow: none;
+  }
+  
