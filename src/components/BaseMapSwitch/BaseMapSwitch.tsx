@@ -1,7 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Map as MapIcon } from "lucide-react";
-import styles from '@/components/BaseMapSwitch/BaseMapSwitch.module.css'
-
+import styles from '@/components/BaseMapSwitch/BaseMapSwitch.module.css';
 
 const basemaps = [
   { id: 'osm', name: 'OpenStreetMap' },
@@ -9,7 +8,7 @@ const basemaps = [
   { id: 'terrain', name: 'Terreno' }
 ];
 
-export default function BaseMapSwitch() {
+export default function BasemapSwitch() {
   return (
     <div className={`${styles.basemapSwitch} glass rounded-xl`}>
       <div className={styles.header}>
